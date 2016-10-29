@@ -1,21 +1,21 @@
-portscan
+#portscan
 
-Travis CI
+Scan a network for ports that are open on an ip/ip range, and
+ips that are in use on that network.
 
-Scan a network for ports that are open on an ip/ip range, and ips that are in use on that network.
-
-$ portscan -h
+```console
+$ netscan -h
 NAME:
-   portscan - Scan network ips and ports.
+   netscan - Scan network ips and ports.
 
 USAGE:
    netscan [global options] command [command options] [arguments...]
 
 VERSION:
-   v0.1.1
+   v0.1.0
 
 AUTHOR(S):
-   @scpman <freeddser@gmail.com>
+   @jessfraz <no-reply@butts.com>
 
 COMMANDS:
    help, h  Shows a list of commands or help for one command
@@ -27,6 +27,8 @@ GLOBAL OPTIONS:
    --proto "tcp,udp"    protocol/s to check
    --help, -h           show help
    --version, -v        print the version
+```
+
 Examples:
 
 # for a cidr
