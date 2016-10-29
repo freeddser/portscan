@@ -40,10 +40,11 @@ $portscan  -p 1-3306   --proto tcp 192.168.1.101
 # for a cidr tcp
 $portscan --proto tcp 192.168.1.1/24
 
-the project fork from https://github.com/jessfraz/netscan
-thanks:
-github.com/Sirupsen/logrus
-github.com/urfave/cli
+#the project fork from https://github.com/jessfraz/netscan
+#thanks:
+#github.com/Sirupsen/logrus
+#github.com/urfave/cli
 
-v0.1.1:
+#----------------------------
+#v0.1.1:
 add scan log in a $ip.log file
