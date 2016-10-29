@@ -4,18 +4,18 @@ Scan a network for ports that are open on an ip/ip range, and
 ips that are in use on that network.
 
 ```console
-$ netscan -h
+$ portscan -h
 NAME:
-   netscan - Scan network ips and ports.
+   portscan - Scan network ips and ports.
 
 USAGE:
-   netscan [global options] command [command options] [arguments...]
+   portscan [global options] command [command options] [arguments...]
 
 VERSION:
-   v0.1.0
+   v0.1.1
 
 AUTHOR(S):
-   @jessfraz <no-reply@butts.com>
+   @scpman <freeddser@gmail.com>
 
 COMMANDS:
    help, h  Shows a list of commands or help for one command
@@ -41,12 +41,12 @@ $ portscan 192.168.104.30
 $portscan  -p 1-3306   --proto tcp 192.168.1.101 
 # for a cidr tcp
 $portscan --proto tcp 192.168.1.1/24
-
-#the project fork from https://github.com/jessfraz/netscan
-#thanks:
-#github.com/Sirupsen/logrus
-#github.com/urfave/cli
-
-#----------------------------
+```
+the project fork from https://github.com/jessfraz/netscan
+thanks:
+github.com/Sirupsen/logrus
+github.com/urfave/cli
+----------------------------
+```
 #v0.1.1:
 add scan log in a $ip.log file
